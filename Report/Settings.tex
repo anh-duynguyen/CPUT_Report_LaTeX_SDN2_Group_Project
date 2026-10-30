@@ -95,17 +95,21 @@ style=ieee
 % ==============================
 % PROFESSIONAL HEADERS
 % ==============================
+
 \usepackage{fancyhdr}
 
-\setlength{\headheight}{15pt}
+\setlength{\headheight}{18pt}
 
 \pagestyle{fancy}
 \fancyhf{}
 
-\fancyhead[L]{SDN260S SOFTWARE DESIGN 2}
-\fancyhead[R]{\leftmark}
+\fancyhead[L]{\small SDN260S SOFTWARE DESIGN 2}
+\fancyhead[R]{\small\nouppercase{\leftmark}}
 
 \fancyfoot[C]{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
 
 % ==============================
 % PDF / LINKS
