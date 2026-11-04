@@ -11,19 +11,26 @@ The file also needed to have functions that prevented the program from crashing 
 split lines and rows into fields and collumns, along with functions that convert values from doubles to strings, and in vice versa.
 
 \paragraph{}
-The Database class implements persistent storage of student marks by reading from and writing to files, so that data is retained beyond
- the lifetime of the program. The File class is used in saveData, where a File object is constructed from a single String argument 
- holding the file path (new File(fileName)). The getName() method is then called on this object to obtain the file name without its 
- directory path, and the module code is extracted from it by removing the _marks.csv suffix and converting the remainder to uppercase. 
- Directory handling is performed through Paths.get(fileName).getParent(), which retrieves the parent directory of the file, followed by 
- Files.createDirectories(), which creates that directory if it does not already exist before writing begins. Data is written as a character-based, 
- sequential-access text file: saveData and exportCSV assemble each student record as a line in a fixed, programmer-defined structure 
- (StudentID, Name, T1, T2, FISA, Final \%, Grade, Status) and write the lines using Files.write(). Reading is performed in loadData, 
- which first confirms that the file exists using Files.exists(), then reads all lines with Files.readAllLines() and processes them sequentially, 
- skipping blank, comment and header lines before parsing each record into a Student object. Helper methods support the text format: escapeCSV and splitCSV 
- handle values that contain commas, while markToString and stringToMark convert missing marks to and from the string “NULL”. Input and output errors are handled
-  through a try/catch block for IOException when writing, and by declaring throws IOException on loadData. The class does not use object serialization, as data is
-   stored as human-readable text.
+The Database class implements persistent storage of student marks by reading from and writing to files, 
+so that data is retained beyond
+the lifetime of the program. The File class is used in saveData, where a File object is constructed from a single String argument 
+holding the file path (new File(fileName)). 
+The getName() method is then called on this object to obtain the file name without its 
+directory path, and the module code is extracted from it by removing the marks.csv suffix and converting the remainder to uppercase. 
+Directory handling is performed through Paths.get(fileName).getParent(), 
+which retrieves the parent directory of the file, followed by 
+Files.createDirectories(), which creates that directory if it does not already exist before writing begins. 
+Data is written as a character-based, 
+sequential-access text file: saveData and exportCSV assemble each student record as a line in a fixed, programmer-defined structure 
+(StudentID, Name, T1, T2, FISA, Final, Grade, Status) 
+and write the lines using Files.write(). 
+Reading is performed in loadData, 
+which first confirms that the file exists using Files.exists(), 
+then reads all lines with Files.readAllLines() and processes them sequentially, 
+skipping blank, comment and header lines before parsing each record into a Student object. Helper methods support the text format: escapeCSV and splitCSV 
+handle values that contain commas, while markToString and stringToMark convert missing marks to and from the string “NULL”. Input and output errors are handled
+through a try/catch block for IOException when writing, and by declaring throws IOException on loadData. The class does not use object serialization, as data is
+stored as human-readable text.
 
 \section{Supporter Methods}
 
