@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  16 SEP 2026 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  4 NOV 2026 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
-(d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
+**c:/Users/User/Desktop/CPUTMarksAdmin-Report/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
+(c:/Users/User/Desktop/CPUTMarksAdmin-Report/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -1070,28 +1070,28 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 121.
  (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2026/02/26 v3.2c Micro-typographical refinements (RS)
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 \MT@toks=\toks63
 \MT@tempbox=\box87
 \MT@count=\count538
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
-LaTeX Info: Redefining \leftprotrusion on input line 1085.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks64
-LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen354
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count539
  (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2026/02/26 v3.2c Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip121
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2026/02/26 v3.2c microtype main configuration file (RS)
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (c:/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfpages.sty
@@ -1130,7 +1130,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 47.
 
 (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
+) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter5_Database.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -1246,7 +1246,10 @@ LaTeX Info: Redefining \microtypecontext on input line 47.
 Package microtype Info: Applying patch `item' on input line 47.
 Package microtype Info: Applying patch `toc' on input line 47.
 Package microtype Info: Applying patch `eqnum' on input line 47.
-Package microtype Info: Applying patch `footnote' on input line 47.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 47.
+
 Package microtype Info: Applying patch `verbatim' on input line 47.
 LaTeX Info: Redefining \microtypesetup on input line 47.
 Package microtype Info: Generating PDF output.
@@ -1259,7 +1262,7 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) (c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
@@ -1273,7 +1276,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \openout2 = `Title.aux'.
 
  (./Title.tex
-<Images/logo_CPUT.png, id=62, 376.40625pt x 111.41624pt>
+<Images/logo_CPUT.png, id=94, 376.40625pt x 111.41624pt>
 File: Images/logo_CPUT.png Graphic file (type png)
 <use Images/logo_CPUT.png>
 Package pdftex.def Info: Images/logo_CPUT.png  used on input line 9.
@@ -1321,36 +1324,26 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout2 = `Declaration.aux'.
 
  (./Declaration.tex
-<Images/signature_anh_duy_nguyen.png, id=75, 823.075pt x 200.75pt>
+<Images/signature_anh_duy_nguyen.png, id=107, 823.075pt x 200.75pt>
 File: Images/signature_anh_duy_nguyen.png Graphic file (type png)
 <use Images/signature_anh_duy_nguyen.png>
 Package pdftex.def Info: Images/signature_anh_duy_nguyen.png  used on input line 8.
 (pdftex.def)             Requested size: 136.56761pt x 45.52519pt.
-<Images/signature_carl_lamprecht.png, id=76, 1606.0pt x 1046.91125pt>
+<Images/signature_carl_lamprecht.png, id=108, 1606.0pt x 1046.91125pt>
 File: Images/signature_carl_lamprecht.png Graphic file (type png)
 <use Images/signature_carl_lamprecht.png>
 Package pdftex.def Info: Images/signature_carl_lamprecht.png  used on input line 9.
 (pdftex.def)             Requested size: 136.56946pt x 45.5115pt.
-<Images/signature_peter_ngesi.png, id=77, 433.62pt x 266.9975pt>
+<Images/signature_peter_ngesi.png, id=109, 433.62pt x 266.9975pt>
 File: Images/signature_peter_ngesi.png Graphic file (type png)
 <use Images/signature_peter_ngesi.png>
 Package pdftex.def Info: Images/signature_peter_ngesi.png  used on input line 13.
 (pdftex.def)             Requested size: 136.57117pt x 45.5234pt.
-<Images/signature_gian_koekemoer.png, id=78, 43.66313pt x 29.35968pt>
+<Images/signature_gian_koekemoer.png, id=110, 43.66313pt x 29.35968pt>
 File: Images/signature_gian_koekemoer.png Graphic file (type png)
 <use Images/signature_gian_koekemoer.png>
 Package pdftex.def Info: Images/signature_gian_koekemoer.png  used on input line 14.
 (pdftex.def)             Requested size: 136.59413pt x 45.52448pt.
-<Images/signature_tihmo_koch.png, id=79, 152.82094pt x 114.4275pt>
-File: Images/signature_tihmo_koch.png Graphic file (type png)
-<use Images/signature_tihmo_koch.png>
-Package pdftex.def Info: Images/signature_tihmo_koch.png  used on input line 18.
-(pdftex.def)             Requested size: 136.57915pt x 45.52399pt.
-<Images/signature_sibusiso_kheswa.png, id=80, 880.28876pt x 383.4325pt>
-File: Images/signature_sibusiso_kheswa.png Graphic file (type png)
-<use Images/signature_sibusiso_kheswa.png>
-Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input line 19.
-(pdftex.def)             Requested size: 136.56422pt x 45.5243pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
@@ -1361,7 +1354,7 @@ l.32 \chapter
 
 
 
- <./Images/signature_anh_duy_nguyen.png> <./Images/signature_carl_lamprecht.png> <./Images/signature_peter_ngesi.png> <./Images/signature_gian_koekemoer.png> <./Images/signature_tihmo_koch.png> <./Images/signature_sibusiso_kheswa.png>]
+ <./Images/signature_anh_duy_nguyen.png> <./Images/signature_carl_lamprecht.png> <./Images/signature_peter_ngesi.png> <./Images/signature_gian_koekemoer.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 37.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1425,53 +1418,72 @@ Chapter 1.
 
 
 ] [2] [3] [4]) [5] [6] [7]
-\openout2 = `Chapters/Chapter8_Conclusions.aux'.
+\openout2 = `Chapters/Chapter5_Database.aux'.
 
- (./Chapters/Chapter8_Conclusions.tex
+ (./Chapters/Chapter5_Database.tex
 Chapter 2.
 [8
 
 
 
 
-] [9] [10] [11]) [12] [13] [14]
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 40.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [9] [10]) [11]
+\openout2 = `Chapters/Chapter8_Conclusions.aux'.
 
-LaTeX Warning: Empty bibliography on input line 90.
+ (./Chapters/Chapter8_Conclusions.tex
+Chapter 3.
+[12
+
+
+
+
+] [13] [14] [15]) [16] [17] [18]
+
+LaTeX Warning: Empty bibliography on input line 91.
 
 \openout2 = `Appendix.aux'.
 
 (./Appendix.tex
 Appendix A.
-) [15
+) [19
 
 
 
 
 
-] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
+] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter5_Database.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: DC5C291204C26ED07CA9838D4DE8422C;1563.
+(rerunfilecheck)             Checksum: C66E82932A523649E85B610F448B386C;2659.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48965 strings out of 467533
- 1010760 string characters out of 5423669
- 2043666 words of memory out of 5000000
- 77031 multiletter control sequences out of 15000+600000
- 679072 words of font info for 123 fonts, out of 8000000 for 9000
+ 49077 strings out of 467532
+ 1012484 string characters out of 5423647
+ 2047288 words of memory out of 5000000
+ 77091 multiletter control sequences out of 15000+600000
+ 680209 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,107p,2583b,1116s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on Main.pdf (23 pages, 605210 bytes).
+ 89i,14n,107p,2607b,1116s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Main.pdf (27 pages, 592015 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 30880 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 31446 words of extra memory for PDF output out of 35830 (max. 10000000)
 

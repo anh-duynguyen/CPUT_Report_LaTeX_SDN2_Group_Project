@@ -1,8 +1,8 @@
-PWD d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report
+PWD c:/Users/User/Desktop/CPUTMarksAdmin-Report/CPUT_Report_LaTeX_SDN2_Group_Project/Report
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
+INPUT c:/Users/User/Desktop/CPUTMarksAdmin-Report/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
 OUTPUT Main.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -408,6 +408,9 @@ INPUT Abstract.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT Chapters/Chapter1_Introduction.aux
+INPUT ./Chapters/Chapter5_Database.aux
+INPUT ./Chapters/Chapter5_Database.aux
+INPUT Chapters/Chapter5_Database.aux
 INPUT ./Chapters/Chapter8_Conclusions.aux
 INPUT ./Chapters/Chapter8_Conclusions.aux
 INPUT Chapters/Chapter8_Conclusions.aux
@@ -535,14 +538,6 @@ INPUT ./Images/signature_gian_koekemoer.png
 INPUT ./Images/signature_gian_koekemoer.png
 INPUT ./Images/signature_gian_koekemoer.png
 INPUT ./Images/signature_gian_koekemoer.png
-INPUT ./Images/signature_tihmo_koch.png
-INPUT ./Images/signature_tihmo_koch.png
-INPUT ./Images/signature_tihmo_koch.png
-INPUT ./Images/signature_tihmo_koch.png
-INPUT ./Images/signature_sibusiso_kheswa.png
-INPUT ./Images/signature_sibusiso_kheswa.png
-INPUT ./Images/signature_sibusiso_kheswa.png
-INPUT ./Images/signature_sibusiso_kheswa.png
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
@@ -585,6 +580,16 @@ OUTPUT Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.tex
 INPUT ./Chapters/Chapter1_Introduction.tex
 INPUT Chapters/Chapter1_Introduction.tex
+INPUT ./Chapters/Chapter5_Database.tex
+INPUT ./Chapters/Chapter5_Database.tex
+OUTPUT Chapters/Chapter5_Database.aux
+INPUT ./Chapters/Chapter5_Database.tex
+INPUT ./Chapters/Chapter5_Database.tex
+INPUT Chapters/Chapter5_Database.tex
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT ./Chapters/Chapter8_Conclusions.tex
 INPUT ./Chapters/Chapter8_Conclusions.tex
 OUTPUT Chapters/Chapter8_Conclusions.aux
@@ -610,6 +615,9 @@ INPUT Abstract.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT Chapters/Chapter1_Introduction.aux
+INPUT ./Chapters/Chapter5_Database.aux
+INPUT ./Chapters/Chapter5_Database.aux
+INPUT Chapters/Chapter5_Database.aux
 INPUT ./Chapters/Chapter8_Conclusions.aux
 INPUT ./Chapters/Chapter8_Conclusions.aux
 INPUT Chapters/Chapter8_Conclusions.aux
@@ -625,3 +633,4 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
