@@ -16,5 +16,103 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{oracleArrayList}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={{Oracle}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Class ArrayList<E>}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+      \endverb
+    \endentry
+    \entry{geeksEncapsulation}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={{GeeksforGeeks}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhashraw}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhashraw}{f1e069787ece74531d112559945c6871}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Encapsulation in Java}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/java/encapsulation-in-java/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/java/encapsulation-in-java/
+      \endverb
+    \endentry
+    \entry{oracleDouble}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={{Oracle}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Class Double Java SE 26 \& JDK 26}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/lang/Double.html
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/lang/Double.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

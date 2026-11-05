@@ -1,4 +1,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Module class attributes, constructor and assessment-component method.}}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces AssessmentComponent attributes, constructor and calculation-related accessor methods.}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces IndividualMarksManager attributes and constructor structure.}}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Validation method enforcing the permitted mark range.}}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Detection of incomplete individual assessment records.}}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Calculation of the weighted contributions from the three assessment components.}}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Relationships between the marks-management classes.}}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Successful processing of a complete individual marks record.}}{15}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Detection of a missing assessment mark.}}{16}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Updated individual marks record and recalculated performance results.}}{17}{figure.caption.17}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
