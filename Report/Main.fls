@@ -1,8 +1,8 @@
-PWD d:/Downloads/Report_revised/Report
+PWD d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT d:/Downloads/Report_revised/Report/Main.tex
+INPUT d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
 OUTPUT Main.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -400,6 +400,10 @@ INPUT ./Images/signature_peter_ngesi.png
 INPUT ./Images/signature_peter_ngesi.png
 INPUT ./Images/signature_peter_ngesi.png
 INPUT ./Images/signature_peter_ngesi.png
+INPUT ./Images/signature_pedro_weir.png
+INPUT ./Images/signature_pedro_weir.png
+INPUT ./Images/signature_pedro_weir.png
+INPUT ./Images/signature_pedro_weir.png
 INPUT ./Images/signature_uthmaan_carelse.png
 INPUT ./Images/signature_uthmaan_carelse.png
 INPUT ./Images/signature_uthmaan_carelse.png
@@ -428,6 +432,9 @@ INPUT ./Images/signature_gian_koekemoer.png
 INPUT ./Images/signature_peter_ngesi.png
 INPUT ./Images/signature_peter_ngesi.png
 INPUT ./Images/signature_peter_ngesi.png
+INPUT ./Images/signature_pedro_weir.png
+INPUT ./Images/signature_pedro_weir.png
+INPUT ./Images/signature_pedro_weir.png
 INPUT ./Images/signature_uthmaan_carelse.png
 INPUT ./Images/signature_uthmaan_carelse.png
 INPUT ./Images/signature_uthmaan_carelse.png
