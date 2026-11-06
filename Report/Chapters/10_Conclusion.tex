@@ -1,0 +1,5 @@
+\section{Conclusion}\label{sec:concl}
+
+The Marks Administration System meets its objectives: lecturers can capture, import and export marks with automatic weighted calculation, missing marks are flagged and kept out of statistics, and a Head of Department has read-only access to course summaries and rankings across several courses. The layered design allowed the interface to change from the console to Swing without rewriting the domain classes, and testing with normal and edge inputs exposed defects that were fixed before submission.
+
+\textbf{Limitations and future work.} Password protection needs to be reviewed and merged into \texttt{main}. Data are stored unencrypted, no log or audit trail records changes, and exporting does not yet check for an existing file of the same name. The year-course functions are placeholders. A future version could move to a database, add file logging and extend the access model.

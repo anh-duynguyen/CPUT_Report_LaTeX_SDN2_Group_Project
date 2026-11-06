@@ -1,136 +1,74 @@
 % ==============================
-% ENCODING
+% ENCODING AND FONTS
 % ==============================
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
 % ==============================
 % PAGE LAYOUT
 % ==============================
-\usepackage{geometry}
-\geometry{
-    a4paper,
-    top=2.5cm,
-    bottom=2.5cm,
-    left=3cm,
-    right=3cm
-}
-
+% Slightly tighter than the template so the body fits the 10-page limit.
+\usepackage[a4paper, top=2.2cm, bottom=2.2cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{setspace}
-\onehalfspacing
+\setstretch{1.05}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
 
 % ==============================
-% FONTS
+% MATH, TABLES, FIGURES
 % ==============================
-% \usepackage[scaled]{helvet}
-% \renewcommand{\familydefault}{\sfdefault}
-\usepackage{lmodern}
-% ==============================
-% MATH & SYMBOLS
-% ==============================
-\usepackage{amsmath, amsthm, amsfonts}
-\usepackage{siunitx}
-
-% ==============================
-% TABLES & FIGURES
-% ==============================
+\usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{subfig}
+\usepackage{subcaption}
 \usepackage{array}
-\usepackage{makecell}
-\usepackage{multirow}
-\usepackage{adjustbox}
-\usepackage{threeparttable}
-\usepackage{tablefootnote}
-\usepackage{booktabs} 
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\setlist{itemsep=1pt, topsep=3pt, parsep=0pt}
+\usepackage[font=small, labelfont=bf, skip=4pt]{caption}
 
 % ==============================
-% CHAPTER FORMATTING
+% COLOURS
 % ==============================
-\usepackage{titlesec}
+\usepackage{xcolor}
+\definecolor{CPUTBlue}{HTML}{005696}
+\definecolor{CPUTRed}{HTML}{ED1C24}
 
-\titleformat{\chapter}
-{\normalfont\huge\bfseries}
-{\thechapter.}
-{20pt}
-{\huge\bfseries}
-
-% ==============================
-% NUMBERING
-% ==============================
-\usepackage{chngcntr}
-\counterwithin{figure}{chapter}
-\counterwithin{table}{chapter}
-
-% ==============================
-% BIBLIOGRAPHY
-% ==============================
-\usepackage{csquotes}
-
-\usepackage[
-backend=biber,
-style=ieee
-]{biblatex}
-
-\addbibresource{References.bib}
-
-% ==============================
-% GLOSSARY & ACRONYMS
-% ==============================
-\usepackage[acronym,toc]{glossaries-extra}
+% Visible marker for anything the group still has to fill in.
+\newcommand{\todo}[1]{\textcolor{CPUTRed}{[#1]}}
 
 % ==============================
 % DIAGRAMS
 % ==============================
 \usepackage{tikz}
+\usetikzlibrary{arrows.meta, fit}
 
 % ==============================
-% COLORS
+% HEADERS AND FOOTERS
 % ==============================
-\usepackage{xcolor}
-
-\definecolor{CPUTBlue}{HTML}{005696}
-\definecolor{CPUTRed}{HTML}{ED1C24}
-
-% ==============================
-% PROFESSIONAL HEADERS
-% ==============================
-
 \usepackage{fancyhdr}
-
-\setlength{\headheight}{18pt}
-
+\setlength{\headheight}{14pt}
 \pagestyle{fancy}
 \fancyhf{}
-
 \fancyhead[L]{\small SDN260S SOFTWARE DESIGN 2}
-\fancyhead[R]{\small\nouppercase{\leftmark}}
-
+\fancyhead[R]{\small\nouppercase{\rightmark}}
 \fancyfoot[C]{\thepage}
-
 \renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0pt}
 
 % ==============================
-% PDF / LINKS
+% BIBLIOGRAPHY
+% ==============================
+\usepackage{csquotes}
+\usepackage[backend=biber, style=ieee]{biblatex}
+\addbibresource{References.bib}
+
+% ==============================
+% LINKS AND TYPOGRAPHY
 % ==============================
 \usepackage{hyperref}
-
 \hypersetup{
-colorlinks=true,
-linkcolor=black,
-citecolor=black,
-urlcolor=blue,
-pdftitle={SOFTWARE DESIGN 2 Group 3 Report 2026}
+  colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue,
+  pdftitle={SDN260S Group 3 System Design Document 2026}
 }
-
-% ==============================
-% QUALITY IMPROVEMENTS
-% ==============================
 \usepackage{microtype}
-
-% ==============================
-% MISC
-% ==============================
-\usepackage{pdfpages}
-\usepackage{lipsum}

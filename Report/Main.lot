@@ -1,6 +1,5 @@
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Testing scenarios and observed results.}}{14}{table.caption.14}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {1}{\ignorespaces Main classes and their responsibilities.}}{2}{table.caption.8}%
+\contentsline {table}{\numberline {2}{\ignorespaces Data structures and the reason for choosing them.}}{4}{table.caption.9}%
+\contentsline {table}{\numberline {3}{\ignorespaces Time complexity of the main operations.}}{5}{table.caption.10}%
+\contentsline {table}{\numberline {4}{\ignorespaces Selected test cases with inputs and expected results.}}{7}{table.caption.12}%
+\contentsline {table}{\numberline {5}{\ignorespaces Areas of responsibility.}}{9}{table.caption.14}%

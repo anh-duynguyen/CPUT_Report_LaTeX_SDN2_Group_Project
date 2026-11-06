@@ -1,0 +1,66 @@
+\section{Data Structures and Algorithms}\label{sec:algos}
+
+\subsection{Data structures}
+Table~\ref{tab:ds} shows where each structure is used and why it was chosen. Class sizes are small (tens to a few hundred students per course), so simple structures were preferred over more elaborate ones.
+
+\begin{table}[htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.1}
+\caption{Data structures and the reason for choosing them.}
+\label{tab:ds}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.2cm} >{\raggedright\arraybackslash}p{3.3cm} X@{}}
+\toprule
+\textbf{Structure} & \textbf{Where} & \textbf{Why}\\
+\midrule
+\texttt{ArrayList} of components and \texttt{ArrayList} of students & \texttt{Course} & Grow as needed, keep insertion order and give indexed access \cite{oracleArrayList}; one attribute per assessment or student is avoided.\\
+\texttt{Double} fields (nullable) & \texttt{Individual\allowbreak MarksManager} & Wrapper objects can hold \texttt{null}, so ``not yet entered'' differs from zero \cite{oracleDouble}.\\
+\texttt{Map<String,Integer>} of header names to column indexes & Marks import & Lets a file with columns in any order or with different capitalisation be read by name.\\
+\texttt{String[]} of required headers & Marks import & A fixed list to compare against, so a file with a missing column is rejected.\\
+\texttt{List<String>} of lines & \texttt{Database} & \texttt{Files.readAllLines} and \texttt{Files.write} work on whole lists of lines.\\
+\texttt{DefaultTableModel} & \texttt{GUI} & Backs the \texttt{JTable}; overridden so that cells cannot be edited directly and all changes go through validated dialogs.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Algorithms}
+
+\textbf{Weighted final mark.} For each assessment $i$ the raw mark $m_i$ is divided by its maximum mark $M_i$ and multiplied by its weight $w_i$ (in percent, with $\sum w_i = 100$):
+\begin{equation}
+F = \sum_{i \in \{\mathrm{test},\,\mathrm{practical},\,\mathrm{exam}\}} \frac{m_i}{M_i}\, w_i .
+\end{equation}
+With weights 30, 30 and 40, each out of 100, marks of 60, 70 and 80 give $F = 18 + 21 + 32 = 71.0$. If the practical were out of 50 and the student scored 35, multiplying the raw mark by 30\% would give 10.5, whereas the normalised value is $\tfrac{35}{50}\times 30 = 21$. This calculation fault was found, corrected and reported in Check-in 2.
+
+\textbf{Missing-mark detection.} \texttt{hasMissingMarks()} checks the three marks for \texttt{null}. \texttt{getMissingMarks()} names the ones that are missing. Calculation methods throw \texttt{IllegalStateException} if called on an incomplete record, so a partial total can never be shown as a final mark.
+
+\textbf{CSV escaping and splitting.} \texttt{escapeCSV} wraps a field in quotes when it contains a comma, and \texttt{splitCSV} does not treat a comma inside quotes as a separator \cite{rfc4180}. \texttt{markToString} and \texttt{stringToMark} convert a missing mark to and from the text \texttt{NULL}. Without this a student name written as ``Surname, Name'' would shift every later column.
+
+\textbf{Header-driven import.} The header line is split, each name trimmed and lower-cased, and stored in the map with its column index. The map is checked against the required headers before any row is read, and an exception is thrown if one is absent. Each row is then read by looking columns up through the map.
+
+\textbf{Class analytics.} \texttt{CollectiveMarksManager} first keeps only students whose records are complete, then computes the average, highest and lowest marks, pass and fail counts, pass rate and grade distribution in one pass. Rankings sort the complete records by final mark, highest first \cite{clrs}.
+
+\subsection{Complexity}
+Let $n$ be the number of students in a course.
+
+\begin{table}[htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.1}
+\caption{Time complexity of the main operations.}
+\label{tab:bigo}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{6.0cm} l X@{}}
+\toprule
+\textbf{Operation} & \textbf{Cost} & \textbf{Comment}\\
+\midrule
+Final mark, missing-mark check (one student) & $O(1)$ & Always three assessments.\\
+Load or save a course file & $O(n)$ & One line per student.\\
+Header map build and validation & $O(h)$ & $h$ is the number of columns.\\
+Class statistics and grade distribution & $O(n)$ & Single pass over complete records.\\
+Ranking & $O(n\log n)$ & Comparison sort on final mark.\\
+Find a student by number & \todo{O(n) or O(1)} & Depends on the collection inside \texttt{StudentManager}; negligible at these class sizes.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Coverage of course concepts}
+\emph{Recursion} was not needed because no data in the system is recursive. \emph{Search} and \emph{sorting} are used for student lookup and rankings. \emph{Generics} appear in the typed collections above. \emph{Serialisation} was deliberately replaced by human-readable CSV. \emph{Multithreading} was not required for small local files, but the interface is constructed on the Swing event dispatch thread through \texttt{SwingUtilities.invokeLater} in \texttt{Main}, which is the thread-safe way to start a Swing program \cite{oracleSwing}.

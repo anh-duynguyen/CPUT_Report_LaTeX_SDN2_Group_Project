@@ -34,8 +34,8 @@
       \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
       \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Class ArrayList<E>}
@@ -48,37 +48,6 @@
       \endverb
       \verb{url}
       \verb https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
-      \endverb
-    \endentry
-    \entry{geeksEncapsulation}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=f1e069787ece74531d112559945c6871}{%
-           family={{GeeksforGeeks}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{f1e069787ece74531d112559945c6871}
-      \strng{fullhash}{f1e069787ece74531d112559945c6871}
-      \strng{fullhashraw}{f1e069787ece74531d112559945c6871}
-      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
-      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
-      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
-      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
-      \strng{authorfullhashraw}{f1e069787ece74531d112559945c6871}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Encapsulation in Java}
-      \field{urlday}{16}
-      \field{urlmonth}{10}
-      \field{urlyear}{2026}
-      \field{year}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.geeksforgeeks.org/java/encapsulation-in-java/
-      \endverb
-      \verb{url}
-      \verb https://www.geeksforgeeks.org/java/encapsulation-in-java/
       \endverb
     \endentry
     \entry{oracleDouble}{online}{}{}
@@ -96,11 +65,11 @@
       \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
       \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Class Double Java SE 26 \& JDK 26}
+      \field{title}{Class Double, Java SE 26 \& JDK 26}
       \field{urlday}{16}
       \field{urlmonth}{10}
       \field{urlyear}{2026}
@@ -110,6 +79,187 @@
       \endverb
       \verb{url}
       \verb https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/lang/Double.html
+      \endverb
+    \endentry
+    \entry{rfc4180}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=947495204d4130d1a21539ecb2825287}{%
+           family={Shafranovich},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {IETF}%
+      }
+      \strng{namehash}{947495204d4130d1a21539ecb2825287}
+      \strng{fullhash}{947495204d4130d1a21539ecb2825287}
+      \strng{fullhashraw}{947495204d4130d1a21539ecb2825287}
+      \strng{bibnamehash}{947495204d4130d1a21539ecb2825287}
+      \strng{authorbibnamehash}{947495204d4130d1a21539ecb2825287}
+      \strng{authornamehash}{947495204d4130d1a21539ecb2825287}
+      \strng{authorfullhash}{947495204d4130d1a21539ecb2825287}
+      \strng{authorfullhashraw}{947495204d4130d1a21539ecb2825287}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{4180}
+      \field{title}{Common Format and {MIME} Type for Comma-Separated Values ({CSV}) Files}
+      \field{type}{RFC}
+      \field{year}{2005}
+    \endentry
+    \entry{clrs}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=835b8c52757d98c15859b416316d9820}{%
+           family={Cormen},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a389dea91a76366c4b4af5f52a928a76}{%
+           family={Leiserson},
+           familyi={L\bibinitperiod},
+           given={Charles\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3a964821f97ee17f8bb285bc61c52899}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={Ronald\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=bc78426660400760f77758aec45e71a8}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Clifford},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{c251cdfd036d9474565c517e73c19c5d}
+      \strng{fullhash}{10f004e08c7c03d98be0da1231a869ce}
+      \strng{fullhashraw}{10f004e08c7c03d98be0da1231a869ce}
+      \strng{bibnamehash}{10f004e08c7c03d98be0da1231a869ce}
+      \strng{authorbibnamehash}{10f004e08c7c03d98be0da1231a869ce}
+      \strng{authornamehash}{c251cdfd036d9474565c517e73c19c5d}
+      \strng{authorfullhash}{10f004e08c7c03d98be0da1231a869ce}
+      \strng{authorfullhashraw}{10f004e08c7c03d98be0da1231a869ce}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4th}
+      \field{title}{Introduction to Algorithms}
+      \field{year}{2022}
+    \endentry
+    \entry{oracleSwing}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={{Oracle}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Java Tutorials: Creating a GUI with Swing}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/javase/tutorial/uiswing/
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/javase/tutorial/uiswing/
+      \endverb
+    \endentry
+    \entry{geeksEncapsulation}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={{GeeksforGeeks}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhashraw}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhashraw}{f1e069787ece74531d112559945c6871}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Encapsulation in Java}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/java/encapsulation-in-java/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/java/encapsulation-in-java/
+      \endverb
+    \endentry
+    \entry{oracleFiles}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={{Oracle}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhashraw}{30162ed78b6c10f731411f2fc440c24f}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Class Files (java.nio.file)}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/nio/file/Files.html
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/nio/file/Files.html
+      \endverb
+    \endentry
+    \entry{gitdocs}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=0bcc70105ad279503e31fe7b3f47b665}{%
+           family={{Git}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{fullhash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{fullhashraw}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{bibnamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorbibnamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authornamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorfullhash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorfullhashraw}{0bcc70105ad279503e31fe7b3f47b665}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Git Documentation}
+      \verb{urlraw}
+      \verb https://git-scm.com/doc
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/doc
       \endverb
     \endentry
   \enddatalist

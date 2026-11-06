@@ -1,0 +1,24 @@
+\section{Introduction and Problem Statement}
+
+\subsection{The problem}
+A lecturer records several assessments for every student in a course, such as a test, a practical and an examination. Each assessment has its own maximum mark and its own weight in the final result. The lecturer must then calculate each student's final mark, notice which students still have outstanding marks, and report class performance to the Head of Department. When this is done by hand in spreadsheets, three weaknesses appear:
+\begin{enumerate}
+  \item final marks depend on formulas that can be broken, mistyped or weighted incorrectly;
+  \item a missing mark is easy to overlook and silently distorts totals and class averages;
+  \item nothing separates the people who may change marks from the people who may only view them.
+\end{enumerate}
+Because marks decide progression, an error in any of these areas has real consequences for students.
+
+\subsection{Objectives and scope}
+The Marks Administration System is a Java desktop application that addresses the problems above. Its objectives are to:
+\begin{itemize}
+  \item capture, update, import and export student marks, with automatic calculation of the weighted final mark and symbol;
+  \item flag missing marks and keep them out of class statistics;
+  \item produce student reports and class summaries, including rankings and grade distributions;
+  \item enforce role-based access for lecturers (edit) and Heads of Department (read-only);
+  \item support several courses, each with its own data file.
+\end{itemize}
+The application is written in plain Java 17 with a Swing interface and no third-party libraries, so persistence uses CSV files rather than a database server. It is a single-user desktop prototype. Password protection was developed on a separate branch and is awaiting review, so it is not part of the delivered feature set. Earlier progress is recorded in the Check-in 1 and Check-in 2 reports, which are not repeated here.
+
+\subsection{Structure of this document}
+Sections~\ref{sec:arch} and~\ref{sec:decisions} present the class design and design decisions, Sections~\ref{sec:algos} to~\ref{sec:adv} the algorithms, implementation and advanced features, and Section~\ref{sec:testing} the testing strategy. Sections~\ref{sec:reflect} and~\ref{sec:team} cover the GA2 and GA7 reflections and the team process, and Section~\ref{sec:concl} concludes.

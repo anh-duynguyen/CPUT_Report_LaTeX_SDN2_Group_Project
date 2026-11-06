@@ -1,46 +1,37 @@
-\contentsline {chapter}{List of Figures}{vii}{chapter*.4}%
-\contentsline {chapter}{List of Tables}{viii}{chapter*.5}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Background}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objectives}{4}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Report Structure}{5}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Marks Management: Design and Implementation}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{8}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Class Design and Implementation}{8}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Module Class}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}AssessmentComponent Class}{9}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}IndividualMarksManager Class}{11}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Class Relationships and Integration}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Testing Methodology}{14}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Testing Results and Evidence}{14}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Troubleshooting and Identified Issues}{14}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Conclusion}{18}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Authorship and Originality Statement}{18}{section.2.8}%
-\contentsline {chapter}{\numberline {3}Database}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Background}{19}{section.3.1}%
-\contentsline {paragraph}{}{19}{paragraph*.18}%
-\contentsline {paragraph}{}{19}{paragraph*.19}%
-\contentsline {section}{\numberline {3.2}Supporter Methods}{20}{section.3.2}%
-\contentsline {paragraph}{}{20}{paragraph*.20}%
-\contentsline {paragraph}{}{20}{paragraph*.21}%
-\contentsline {paragraph}{}{20}{paragraph*.22}%
-\contentsline {section}{\numberline {3.3}saveData method}{20}{section.3.3}%
-\contentsline {paragraph}{}{20}{paragraph*.23}%
-\contentsline {paragraph}{}{21}{paragraph*.24}%
-\contentsline {section}{\numberline {3.4}loadData method}{21}{section.3.4}%
-\contentsline {paragraph}{}{21}{paragraph*.25}%
-\contentsline {section}{\numberline {3.5}importCSV method}{21}{section.3.5}%
-\contentsline {paragraph}{}{21}{paragraph*.26}%
-\contentsline {paragraph}{}{21}{paragraph*.27}%
-\contentsline {section}{\numberline {3.6}exportCSV method}{22}{section.3.6}%
-\contentsline {paragraph}{}{22}{paragraph*.28}%
-\contentsline {paragraph}{}{22}{paragraph*.29}%
-\contentsline {section}{\numberline {3.7}Removal of importCSV from Final}{22}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Conclusion}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Summary}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Key Findings}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Future Work}{26}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Final Remarks}{28}{section.4.4}%
-\contentsline {chapter}{Bibliography}{30}{section.4.4}%
-\contentsline {chapter}{\numberline {A}Appendix}{31}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Github Repository}{31}{section.A.1}%
+\contentsline {section}{Declaration of Authorship}{i}{section*.1}%
+\contentsline {section}{AI Declaration}{ii}{section*.2}%
+\contentsline {section}{Abstract}{iii}{section*.3}%
+\contentsline {section}{\numberline {1}Introduction and Problem Statement}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The problem}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objectives and scope}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Structure of this document}{1}{subsection.1.3}%
+\contentsline {section}{\numberline {2}System Architecture and Class Design}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Layered architecture}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}UML class diagram}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Class responsibilities and relationships}{2}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Design Decisions}{3}{section.3}%
+\contentsline {section}{\numberline {4}Data Structures and Algorithms}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data structures}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Algorithms}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Complexity}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Coverage of course concepts}{5}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Implementation Highlights}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Marks management classes}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Persistence}{6}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Role layer and session handling}{6}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Advanced Features}{6}{section.6}%
+\contentsline {section}{\numberline {7}Testing Strategy}{7}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Approach}{7}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Test cases}{7}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Evidence}{8}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Defects found}{8}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Reflections on GA2 and GA7}{8}{section.8}%
+\contentsline {subsection}{\numberline {8.1}GA2: Application of Scientific and Engineering Knowledge}{8}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}GA7: Impact of Engineering Activity}{8}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Team Collaboration Process}{9}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Organisation}{9}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Version control and integration}{9}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Problems and lessons}{10}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Conclusion}{10}{section.10}%
+\contentsline {section}{References}{11}{section*.15}%
+\contentsline {section}{\numberline {A}GitHub Repository}{11}{appendix.A}%

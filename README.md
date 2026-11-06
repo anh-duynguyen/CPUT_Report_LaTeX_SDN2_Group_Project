@@ -1,24 +1,20 @@
-# Group 3 - SDN260S SOFTWARE DESIGN 2 Group Project
+# Group 3 - SDN260S Software Design 2 Group Project
 
 ## Overview
+Marks Administration System for CPUT: a Java 17 / Swing desktop application that lets lecturers
+capture, import and export student marks (automatic weighted final mark, missing-mark flagging,
+class summaries) and lets a Head of Department inspect results read-only. Marks are stored as CSV
+files, one per course.
 
-
-## Repository Contents
-- `Main.tex` – main LaTeX document  
-- `Chapters/` – individual chapter files (if split)  
-- `Figures/` – all images and diagrams used in the report  
-- `Bibliography.bib` – BibTeX references  
-- `main.pdf` – compiled PDF (latest version)  
-- `README.md` – this file  
+## Repository contents
+- `Report/Main.tex` - system design document (LaTeX, compile with pdfLaTeX + Biber in Overleaf)
+- `Report/Chapters/` - one file per section (`01_Introduction.tex` ... `10_Conclusion.tex`) and the TikZ UML diagram
+- `Report/Images/` - screenshots, logo and signatures
+- `Report/References.bib` - bibliography
+- `src/` - Java source code, `src/data/` sample CSV files (add when uploading the project)
 
 ## Authors
-- Anh Duy Nguyen  
-- Carl Leonard Lamprecht  
-- Peter Hlalubonga Ngesi  
-- Gian Koekemoer  
-- Jaunne Alex Havenga
-- Keno Solomons
-- Uthmaan Carelse
-- Pedro Josh Weir
+Anh Duy Nguyen, Carl Leonard Lamprecht, Jaunne Alex Havenga, Keno Solomons,
+Gian Koekemoer, Peter Hlalubonga Ngesi, Pedro Josh Weir, Uthmaan Carelse
 
 **Examiner:** Mr. Stephen Ekwe

@@ -1,0 +1,50 @@
+% UML class diagram drawn with TikZ so it stays sharp and editable.
+\begin{tikzpicture}[
+  x=1cm, y=1cm,
+  umlhead/.style={draw, fill=CPUTBlue!18, minimum width=3.55cm, minimum height=0.45cm,
+                  font=\fontsize{6.8}{8}\selectfont\bfseries, anchor=north west, inner sep=1.5pt, align=center},
+  umlbody/.style={draw, minimum width=3.55cm, text width=3.35cm, align=left,
+                  font=\fontsize{6.5}{7.6}\selectfont\ttfamily, anchor=north west,
+                  inner sep=2pt, minimum height=1.0cm},
+  rel/.style={-{Stealth[length=5pt]}, line width=0.5pt},
+  lbl/.style={font=\fontsize{6.5}{7}\selectfont, fill=white, inner sep=1pt}
+]
+% \uml{id}{x}{y}{Name}{attributes}{methods}
+\newcommand{\uml}[6]{%
+  \node[umlhead] (#1h) at (#2,#3) {#4};
+  \node[umlbody] (#1a) at (#1h.south west) {#5};
+  \node[umlbody] (#1b) at (#1a.south west) {#6};
+  \node[fit=(#1h)(#1a)(#1b), inner sep=0pt] (#1) {};}
+
+% Row 1
+\uml{gui}{0}{0}{GUI}{extends JFrame\\tableModel\\table: JTable}{showLoginScreen()\\showLecturerScreen()\\showHodScreen()}
+\uml{co}{4.15}{0}{CourseSessionCoordinator}{courses\\active course\\data per course}{select / create course\\remove course\\load / save active data}
+\uml{cr}{8.3}{0}{Course}{code, name\\assessmentComponents\\students}{addComponent()\\addStudent()\\getStudents()}
+\uml{ac}{12.45}{0}{AssessmentComponent}{key, label\\weight\\maxMark}{getWeight()\\getMaxMark()\\getLabel()}
+% Row 2
+\uml{lec}{0}{-3.55}{Lecturer}{name, role (User)\\edits marks: yes\\uses Database}{importMarks()\\add / update marks\\view reports}
+\uml{db}{4.15}{-3.55}{Database}{data folder (CSV)}{loadData()\\saveData()\\exportCSV(Path)}
+\uml{st}{8.3}{-3.55}{Student}{id, name\\individual marks}{id / name / marks\\getters}
+\uml{im}{12.45}{-3.55}{IndividualMarksManager}{testMark: Double\\practicalMark: Double\\examMark: Double}{calculateFinalMark()\\hasMissingMarks()\\getMissingMarks()}
+% Row 3
+\uml{us}{0}{-7.1}{\textit{User} \{abstract\}}{name\\role\\edit permission}{validate name\\get role / permission}
+\uml{hod}{4.15}{-7.1}{HeadOfDepartment}{name, role (User)\\edits marks: no\\courses}{viewClassSummary()\\view course results\\all-course matrix}
+\uml{sm}{8.3}{-7.1}{StudentManager}{students collection}{add / remove student\\find by student ID\\list all students}
+\uml{cm}{12.45}{-7.1}{CollectiveMarksManager}{students (complete only)}{average, min, max\\pass / fail / pass rate\\grades, ranking}
+
+% Relationships
+\draw[rel] (gui.east) -- node[lbl, above=1pt]{uses} (co.west);
+\draw[rel] (gui.south) -- node[lbl]{calls} (lec.north);
+\draw[rel] (co.east) -- node[lbl, above=1pt]{1..*} (cr.west);
+\draw[-{Stealth[length=5pt]}, line width=0.5pt] (co.south) -- node[lbl]{saves via} (db.north);
+\draw[{Diamond[open, length=6pt]}-, line width=0.5pt] (cr.east) -- node[lbl, above=1pt]{1..*} (ac.west);
+\draw[{Diamond[open, length=6pt]}-, line width=0.5pt] (cr.south) -- node[lbl]{1..*} (st.north);
+\draw[rel] (st.east) -- node[lbl, above=1pt]{1} (im.west);
+\draw[rel] (im.north) -- node[lbl]{3 refs} (ac.south);
+\draw[-{Triangle[open, length=6pt]}, line width=0.5pt] (lec.south) -- node[lbl]{extends} (us.north);
+\draw[-{Triangle[open, length=6pt]}, line width=0.5pt] (hod.west) -- (us.east);
+\draw[rel, dashed] (lec.east) -- node[lbl, above=1pt]{uses} (db.west);
+\draw[rel] (sm.north) -- node[lbl]{manages} (st.south);
+\draw[rel, dashed] (db.south east) -- node[lbl, right=2pt]{returns} (sm.north west);
+\draw[rel, dashed] (cm.north) -- node[lbl]{analyses} (im.south);
+\end{tikzpicture}

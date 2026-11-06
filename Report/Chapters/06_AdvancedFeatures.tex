@@ -1,0 +1,13 @@
+\section{Advanced Features}\label{sec:adv}
+
+\textbf{Graphical interface.} The Swing interface (\texttt{GUI}) offers a login screen, a lecturer screen and a Head of Department dashboard in one window. The lecturer table uses a non-editable \texttt{DefaultTableModel} and a custom cell renderer that shades incomplete rows red, while a Status column names the missing assessments. The Head of Department screen uses a split pane: choosing a course in the list updates the report beside it.
+
+\textbf{Role-based access.} The login choice creates a \texttt{Lecturer} or a \texttt{HeadOfDepartment}. Only the lecturer object carries editing permission and offers the capture, update and import operations, so the read-only restriction is enforced by the objects and not only by hiding buttons.
+
+\textbf{Multi-course management.} Each course has its own file, \texttt{<CODE>\_marks.csv}. A Head of Department can create a course, which also creates its file, or remove one after a confirmation dialog. Duplicate course codes are refused case-insensitively and blank fields are rejected.
+
+\textbf{Flexible CSV import and export.} Import matches columns by header name rather than by position, trims the file path, and rejects files with missing headers with a readable message. Export asks for a destination with a file chooser and adds the \texttt{.csv} extension if it is missing.
+
+\textbf{Analytics.} Class summaries, pass and fail counts, grade distribution, rankings and missing-mark lists are produced by \texttt{CollectiveMarksManager}, which ignores incomplete records so that missing data cannot distort averages. The all-course matrix gives the Head of Department a one-screen comparison across courses.
+
+\textbf{Error handling.} Invalid marks, blank fields, unknown student numbers, malformed files and missing selections each produce a specific message and leave stored data unchanged.

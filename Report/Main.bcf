@@ -2374,9 +2374,14 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">References.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">oracleArrayList</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">geeksEncapsulation</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">oracleDouble</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">oracleArrayList</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">oracleDouble</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">rfc4180</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">clrs</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">oracleSwing</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">geeksEncapsulation</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">oracleFiles</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">gitdocs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

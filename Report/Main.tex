@@ -1,16 +1,7 @@
-\documentclass[12pt,oneside,openright,a4paper]{report}
+\documentclass[11pt,oneside,a4paper]{article}
 \setlength{\emergencystretch}{3em}
-% -------------------------------
-% Load all packages and styling
-% -------------------------------
-\input{Settings}
-\usepackage{fancyhdr}
-\setlength{\headheight}{28pt}
-\setlength{\headheight}{28pt}
-% -------------------------------
-% GLOSSARIES
-% -------------------------------
 
+\input{Settings}
 
 % --- CPUT REPORT INFORMATION ---
 \newcommand*{\getUniversity}{Cape Peninsula University of Technology}
@@ -19,82 +10,70 @@
 
 \newcommand*{\getTitle}{%
 \fontsize{16pt}{18pt}\selectfont\bfseries
-Development and Implementation of a Marks Administration System for the Cape Peninsula University of Technology\\[0.4em]
+Development and Implementation of a Marks Administration System for the Cape Peninsula University of Technology\\[0.6em]
+\large System Design Document\\[0.4em]
 }
 
 \newcommand*{\getAuthor}{Group 3}
-
-% Degree Information
 \newcommand*{\getDoctype}{Group project report submitted in partial fulfilment of the requirements for the degree}
 \newcommand*{\getDegree}{Bachelor of Engineering Technology in Computer Engineering}
-
 \newcommand*{\getSupervisor}{Mr. Stephen Ekwe}
 \newcommand*{\getCourseCode}{SDN260S - SOFTWARE DESIGN 2}
-
 \newcommand*{\getCampus}{Bellville Campus}
-\newcommand*{\getSubmissionDate}{October 2026}
-
-% Copyright
+\newcommand*{\getSubmissionDate}{November 2026}
 \newcommand*{\getCopyright}{
-The report may not be published either in part 
-(in scholarly, scientific or technical journals), or as a whole 
+The report may not be published either in part
+(in scholarly, scientific or technical journals), or as a whole
 (as a monograph), unless permission has been obtained from the University.
 }
 
-% =================================================
-% DOCUMENT START
-% =================================================
+% --- Project links and graduate attribute titles (fill in / confirm) ---
+\newcommand*{\githubLink}{\url{https://github.com/anh-duynguyen/SDN260S_SOFTWARE_DESIGN_2_Group_3_Project}}
+\newcommand*{\gaTwoName}{GA2: Application of Scientific and Engineering Knowledge}
+\newcommand*{\gaSevenName}{GA7: Impact of Engineering Activity}
+
 \begin{document}
 
 % -------------------------------
-% FRONT MATTER
+% FRONT MATTER (not counted in the 10-page limit)
 % -------------------------------
 \pagenumbering{roman}
-
-\include{Title}
-
+\input{Title}
 \setcounter{page}{1}
-
-\include{Declaration}
-\include{Abstract}
-
+\input{Declaration}
+\clearpage
+\input{Abstract}
 \clearpage
 \tableofcontents
-
 \clearpage
-\addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures
-
-\clearpage
-\addcontentsline{toc}{chapter}{List of Tables}
 \listoftables
 
 % -------------------------------
-% GLOSSARY & ACRONYMS
-% -------------------------------
-% -------------------------------
-% MAIN MATTER
+% MAIN MATTER (10 pages maximum)
 % -------------------------------
 \clearpage
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
-\include{Chapters/Chapter1_Introduction}
-\include{Chapters/Chapter4_MarksManagement}
-\include{Chapters/Chapter5_Database}
-\include{Chapters/Chapter8_Conclusions}
+\input{Chapters/01_Introduction}
+\input{Chapters/02_Architecture}
+\input{Chapters/03_DesignDecisions}
+\input{Chapters/04_DataStructuresAlgorithms}
+\input{Chapters/05_Implementation}
+\input{Chapters/06_AdvancedFeatures}
+\input{Chapters/07_Testing}
+\input{Chapters/08_Reflections}
+\input{Chapters/09_Teamwork}
+\input{Chapters/10_Conclusion}
 
 % -------------------------------
-% BIBLIOGRAPHY
+% REFERENCES AND APPENDIX
 % -------------------------------
 \clearpage
-\addcontentsline{toc}{chapter}{Bibliography}
-\printbibliography
+\printbibliography[heading=bibintoc, title={References}]
 
-% -------------------------------
-% APPENDIX
-% -------------------------------
 \appendix
-\include{Appendix}
+\input{Appendix}
 
 \end{document}

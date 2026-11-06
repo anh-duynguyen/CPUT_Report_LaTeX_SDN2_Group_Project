@@ -1,0 +1,31 @@
+\section{Team Collaboration Process}\label{sec:team}
+
+\subsection{Organisation}
+The eight-member group divided the work along the class boundaries agreed in the Check-in 1 UML diagram, so each member could develop and test a part independently. Table~\ref{tab:team} shows the areas of responsibility.
+
+\begin{table}[htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.1}
+\caption{Areas of responsibility.}
+\label{tab:team}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{5.9cm} X@{}}
+\toprule
+\textbf{Area and classes} & \textbf{Member(s)}\\
+\midrule
+Marks management: \texttt{Course}, \texttt{AssessmentComponent}, \texttt{IndividualMarksManager} & \todo{names}\\
+Students and analytics: \texttt{Student}, \texttt{StudentManager}, \texttt{CollectiveMarksManager} & \todo{names}\\
+Roles: \texttt{User}, \texttt{Lecturer}, \texttt{HeadOfDepartment} & \todo{names}\\
+Persistence and import/export: \texttt{Database} & \todo{names}\\
+Interface and integration: \texttt{GUI}, \texttt{CourseSessionCoordinator}, \texttt{Main} & \todo{names}\\
+Testing, documentation and demonstration & \todo{names}\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Version control and integration}
+The project is kept in a shared GitHub repository whose \texttt{main} branch holds the working build \cite{gitdocs}. Work that was not ready, such as the password feature, was developed on a separate branch created from \texttt{main} so that a pull request can be reviewed before the change is merged. Commit messages describe what changed, for example the shared commit that updated \texttt{exportCSV} and \texttt{saveData} in \texttt{Database.java} and the classes that call them. Since Check-in 2 the original authors of \texttt{User}, \texttt{Lecturer}, \texttt{HeadOfDepartment} and \texttt{CollectiveMarksManager} made no further changes to them; the only later change came from that shared commit.
+We had weekly group meetings on Microsoft Teams to check project status and discuss on progress. 
+
+\subsection{Problems and lessons}
+The main integration problems were inconsistent terminology (\texttt{Module} against \texttt{Course}), a duplicated import method, and a console-based design that did not suit a graphical interface. They were solved by agreeing on common names, deleting \texttt{importCSV} in favour of \texttt{importMarks}, and adding the text-returning method versions. The lessons were to agree interfaces before coding, to merge through review and not by direct edits, and to test the combined program early, because most defects appeared where one member's class met another's.
