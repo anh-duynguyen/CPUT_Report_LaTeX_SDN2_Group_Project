@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  6 NOV 2026 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  6 NOV 2026 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
-(d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
+**c:/Users/User/Desktop/CPUTMarksAdmin-Report/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
+(c:/Users/User/Desktop/CPUTMarksAdmin-Report/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -809,28 +809,28 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 73.
 ) (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2026/02/26 v3.2c Micro-typographical refinements (RS)
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 \MT@toks=\toks43
 \MT@tempbox=\box69
 \MT@count=\count475
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
-LaTeX Info: Redefining \leftprotrusion on input line 1085.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks44
-LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen311
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count476
  (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2026/02/26 v3.2c Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip94
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2026/02/26 v3.2c microtype main configuration file (RS)
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
@@ -941,7 +941,10 @@ LaTeX Info: Redefining \microtypecontext on input line 35.
 Package microtype Info: Applying patch `item' on input line 35.
 Package microtype Info: Applying patch `toc' on input line 35.
 Package microtype Info: Applying patch `eqnum' on input line 35.
-Package microtype Info: Applying patch `footnote' on input line 35.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 35.
+
 Package microtype Info: Applying patch `verbatim' on input line 35.
 LaTeX Info: Redefining \microtypesetup on input line 35.
 Package microtype Info: Generating PDF output.
@@ -954,7 +957,7 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) (./Title.tex
 <Images/logo_CPUT.png, id=155, 376.40625pt x 111.41624pt>
@@ -1166,15 +1169,15 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34133 strings out of 467533
- 644372 string characters out of 5423669
- 1512581 words of memory out of 5000000
- 62199 multiletter control sequences out of 15000+600000
+ 34131 strings out of 467532
+ 644416 string characters out of 5423647
+ 1512550 words of memory out of 5000000
+ 62198 multiletter control sequences out of 15000+600000
  725564 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,97p,1261b,1380s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,14n,97p,1285b,1380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Main.pdf (18 pages, 1193401 bytes).
+Output written on Main.pdf (18 pages, 1193444 bytes).
 PDF statistics:
  508 PDF objects out of 1000 (max. 8388607)
  409 compressed objects within 5 object streams
