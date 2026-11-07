@@ -3,14 +3,15 @@
 \subsection{Layered architecture}
 The system is split into four layers so that each can change without disturbing the others. The \emph{presentation layer} (\texttt{Main}, \texttt{GUI}) only displays information and collects input. The \emph{role layer} (\texttt{User}, \texttt{Lecturer}, \texttt{HeadOfDepartment}) decides what each kind of user may do and returns results as text. The \emph{domain layer} (\texttt{Course}, \texttt{Student}, \texttt{AssessmentComponent}, \texttt{IndividualMarksManager}, \texttt{StudentManager}, \texttt{CollectiveMarksManager}) holds the marks and the calculations. The \emph{persistence layer} (\texttt{Database}) reads and writes CSV files. \texttt{CourseSessionCoordinator} sits between the interface and the rest, tracking which course is active and which data belongs to it.
 
-\subsection{UML class diagram}
+\subsection{UML Class Diagram}
+
 Figure~\ref{fig:uml} shows the main classes. Attributes and methods are abbreviated; lines without parentheses describe a responsibility rather than an exact member name.
 
 \begin{figure}[htbp]
-\centering
-\input{Chapters/uml_diagram}
-\caption{Simplified UML class diagram of the Marks Administration System.}
-\label{fig:uml}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/uml_diagram.jpeg}
+    \caption{UML class diagram of the Marks Administration System.}
+    \label{fig:uml}
 \end{figure}
 
 \subsection{Class responsibilities and relationships}
