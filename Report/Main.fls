@@ -1,8 +1,8 @@
-PWD c:/Users/User/Desktop/CPUTMarksAdmin-Report/CPUT_Report_LaTeX_SDN2_Group_Project/Report
+PWD d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/User/Desktop/CPUTMarksAdmin-Report/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
+INPUT d:/Documents/GitHub/CPUT_Report_LaTeX_SDN2_Group_Project/Report/Main.tex
 OUTPUT Main.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
